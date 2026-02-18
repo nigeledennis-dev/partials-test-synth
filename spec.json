@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Test Synth",
+    "type": "synthesizer",
+    "formats": [
+      "VST3"
+    ]
+  },
+  "dsp": {
+    "type": "oscillator"
+  },
+  "parameters": [
+    {
+      "id": "gain",
+      "name": "Gain",
+      "min": 0,
+      "max": 1,
+      "default": 0.5
+    }
+  ]
+}
